@@ -1,5 +1,7 @@
 body {
     background-image: url("https://image.ibb.co/iWJjFG/image.jpg");
+    background-position: center top;
+    background-attachment: fixed;
 }
 h1 {
     font-family: "Verdana", sans-serif;
