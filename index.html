@@ -6,6 +6,10 @@ function show_coords(event) {
     document.getElementById("demo").innerHTML =
     "X= " + event.clientX + "<br>Y= " + event.clientY;
 }
+    
+function displayDate() {
+    document.getElementById("demo").innerHTML = Date();
+}
 </script>
 <style>
 body {
@@ -66,5 +70,6 @@ So far, I have explained the basis of the Internet and how people can use it. I 
 <div class="center"onmousedown="show_coords(event)">
 Click this paragraph to display the x and y coordinates of the mouse pointer.</div>
 <div class="textcenter" id="demo"></div>
+<div class="center" button type="button" onclick="displayDate()">Display Date</button></div>
 </body>
 </html>
